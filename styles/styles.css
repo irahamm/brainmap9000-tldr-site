@@ -1,0 +1,99 @@
+.my_div{
+margin-left: 100px;
+margin-bottom: 100px;
+margin-right: 100px;
+margin-top: 50px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+color: rgba(224, 224, 224);
+}
+
+.img_background{
+background: url("../pics/iconbig.svg") repeat;
+background-repeat: repeat-y;
+background-size: 100% auto;
+}
+
+.color_background{
+background-color: rgba(67, 70, 78, 0.95);
+}
+
+
+h1{
+margin-top:0px;
+margin-bottom:0px;
+font-size: 100px;
+
+margin-left: 50px;
+text-align: center;
+}
+
+.image-filled-text {
+    /* Set the background image */
+    background-image: url("../pics/iconbig.svg"); /* Replace with your image URL */
+    /* Control the background's size and position */
+    background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255,255,255,0.2);
+        -webkit-font-smoothing: antialiased;
+}
+
+h2{
+font-size: 65px;
+}
+
+p{
+font-size: 30px;
+margin-left: 25px;
+}
+
+a{
+font-size: 30px;
+margin-left: 25px
+}
+
+a:link {
+  color: #66ccff;   /* unvisited */
+}
+
+a:visited {
+  color: #a37fff;   /* visited */
+}
+
+a:hover {
+  color: #ffffff;   /* on hover */
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ff6666;   /* while clicking */
+}
+
+summary{
+font-size: 30px;
+margin-left: 25px;
+}
+
+details{
+margin-bottom:20px;
+}
+
+summary:hover{
+color:#add9e6;
+}
+
+img{
+margin-left: 60px;
+filter: brightness(90%);
+}
+
+.p_paragraph{
+margin-left: 60px;
+}
